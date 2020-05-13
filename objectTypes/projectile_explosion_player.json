@@ -1,0 +1,153 @@
+{
+	"name": "projectile_explosion_player",
+	"plugin-id": "Sprite",
+	"sid": 193841623733558,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "IsIndestructable",
+			"type": "boolean",
+			"desc": "",
+			"sid": 524811743366593
+		},
+		{
+			"name": "IsHoming",
+			"type": "boolean",
+			"desc": "",
+			"sid": 146614476944899
+		},
+		{
+			"name": "TargetUID",
+			"type": "number",
+			"desc": "",
+			"sid": 941894617098333
+		},
+		{
+			"name": "IsHomingReady",
+			"type": "boolean",
+			"desc": "",
+			"sid": 309133827758367
+		},
+		{
+			"name": "IsBouncy",
+			"type": "boolean",
+			"desc": "",
+			"sid": 355908175936582
+		},
+		{
+			"name": "IsPopper",
+			"type": "boolean",
+			"desc": "",
+			"sid": 517840998029693
+		},
+		{
+			"name": "IsActive",
+			"type": "boolean",
+			"desc": "",
+			"sid": 115790394722727
+		},
+		{
+			"name": "IsSecondary",
+			"type": "boolean",
+			"desc": "",
+			"sid": 452483928921076
+		},
+		{
+			"name": "IsDeadPopper",
+			"type": "boolean",
+			"desc": "",
+			"sid": 100279654512224
+		},
+		{
+			"name": "IsRotate",
+			"type": "boolean",
+			"desc": "",
+			"sid": 276550843112587
+		},
+		{
+			"name": "IsBigFlash",
+			"type": "boolean",
+			"desc": "",
+			"sid": 647677152308859
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 390470965807264
+		},
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 679281527685610
+		},
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 602313687252114
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 33,
+						"height": 33,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 54,
+						"collisionPoly": {
+							"points": [
+								0.18181818181818182,
+								0.18181818181818182,
+								0.5,
+								0.030303030303030304,
+								0.7878787878787878,
+								0.18181818181818182,
+								0.9393939393939394,
+								0.5,
+								0.7878787878787878,
+								0.7878787878787878,
+								0.5,
+								0.9393939393939394,
+								0.18181818181818182,
+								0.7878787878787878,
+								0.030303030303030304,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 782651604568345,
+				"name": "1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

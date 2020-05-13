@@ -1,0 +1,85 @@
+{
+	"name": "player_CONTROL",
+	"plugin-id": "Sprite",
+	"sid": 187325016071232,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 395749879804391
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 585331617393294
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 453783397988840
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 657456427675256
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 11,
+						"collisionPoly": {
+							"points": [
+								0.0625,
+								0.0625,
+								0.5,
+								0.28125,
+								0.625,
+								0.34375,
+								0.875,
+								0.5,
+								0.625,
+								0.625,
+								0.5,
+								0.6875,
+								0.0625,
+								0.90625,
+								0.25,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.15625,
+								"y": 0.5
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 792331882191678,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

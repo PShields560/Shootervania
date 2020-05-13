@@ -1,0 +1,289 @@
+{
+	"name": "enemy_outline",
+	"plugin-id": "Sprite",
+	"sid": 474566221073366,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "ownerUID",
+			"type": "number",
+			"desc": "",
+			"sid": 980617634264933
+		},
+		{
+			"name": "GlowLevel",
+			"type": "number",
+			"desc": "",
+			"sid": 933671923313350
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 967673440674485
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutsideLayout",
+			"sid": 587879823574268
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		},
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 24,
+						"height": 24,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9003864,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5148809523809523,
+								0.27976190476190493,
+								1,
+								0,
+								0.747023809523809,
+								0.5,
+								1,
+								1,
+								0.5,
+								0.7276785714285711,
+								0,
+								1,
+								0.2633928571428575,
+								0.48958333333333337
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 956555522927872,
+				"name": "0",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6581153,
+						"collisionPoly": {
+							"points": [
+								0.18750000000000003,
+								0.09077380952380955,
+								0.96875,
+								0.5,
+								0.18898809523809523,
+								0.9047619047619044
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 973829516351504,
+				"name": "1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 24,
+						"height": 24,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6727425,
+						"collisionPoly": {
+							"points": [
+								0.041666666666666664,
+								0.041666666666666664,
+								0.5,
+								0,
+								0.9166666666666666,
+								0.041666666666666664,
+								0.9583333333333334,
+								0.5,
+								0.9166666666666666,
+								0.9166666666666666,
+								0.5,
+								0.9583333333333334,
+								0.041666666666666664,
+								0.9166666666666666,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 189884421690875,
+				"name": "2",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "A:\\Dropbox\\Shootervania\\penta.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2034312,
+						"collisionPoly": {
+							"points": [
+								0.9709821428571429,
+								0.43638392857142844,
+								0.7779017857142857,
+								0.9609375000000001,
+								0.2209821428571428,
+								0.9609375000000002,
+								0.02678571428571419,
+								0.4174107142857142,
+								0.5,
+								0.03125
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 608126415993247,
+				"name": "3",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 48,
+						"height": 48,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "A:\\Dropbox\\Shootervania\\hex.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5903042,
+						"collisionPoly": {
+							"points": [
+								0.08072916666666667,
+								0.2786458333333335,
+								0.5,
+								0,
+								0.9192708333333334,
+								0.28385416666666685,
+								0.9088541666666664,
+								0.703125,
+								0.5,
+								0.9791666666666666,
+								0.08333333333333333,
+								0.7057291666666667
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 330194495717882,
+				"name": "4",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "A:\\Dropbox\\Shootervania\\oct.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6851959,
+						"collisionPoly": {
+							"points": [
+								0.265625,
+								0,
+								0.7109375,
+								0,
+								1,
+								0.2890625,
+								1,
+								0.71484375,
+								0.720703125,
+								1,
+								0.267578125,
+								1,
+								0,
+								0.73828125,
+								0,
+								0.27734375
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 562600178928636,
+				"name": "5",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

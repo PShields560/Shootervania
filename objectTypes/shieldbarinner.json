@@ -1,0 +1,33 @@
+{
+	"name": "ShieldBarInner",
+	"plugin-id": "NinePatch",
+	"sid": 203802451843101,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"image": {
+		"width": 61,
+		"height": 8,
+		"originX": 0.5,
+		"originY": 0.6640625,
+		"originalSource": "A:\\Dropbox\\Shootervania\\ShieldBarInner.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 146,
+		"useCollisionPoly": true
+	}
+}

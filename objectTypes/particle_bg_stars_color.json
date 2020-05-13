@@ -1,0 +1,33 @@
+{
+	"name": "particle_BG_stars_color",
+	"plugin-id": "Particles",
+	"sid": 201507549364531,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		},
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	],
+	"image": {
+		"width": 7,
+		"height": 7,
+		"originX": 1.1428571428571428,
+		"originY": -1.2857142857142858,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 42,
+		"useCollisionPoly": true
+	}
+}

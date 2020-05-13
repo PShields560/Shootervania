@@ -1,0 +1,159 @@
+{
+	"name": "loader",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 914622027864509
+				}
+			],
+			"actions": [
+				{
+					"id": "request-project-file",
+					"objectClass": "AJAX",
+					"sid": 254061628331793,
+					"parameters": {
+						"tag": "\"Player Powers\"",
+						"file": "Player Powers.json"
+					}
+				}
+			],
+			"sid": 958478636501994
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-completed",
+					"objectClass": "AJAX",
+					"sid": 727979670169978,
+					"parameters": {
+						"tag": "\"Player Powers\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "PlayerPowers",
+					"sid": 238225030504780,
+					"parameters": {
+						"json": "AJAX.LastData"
+					}
+				},
+				{
+					"id": "request-project-file",
+					"objectClass": "AJAX",
+					"sid": 999773050090727,
+					"parameters": {
+						"tag": "\"Player Modules\"",
+						"file": "PlayerModules.json"
+					}
+				}
+			],
+			"sid": 692423417197262
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-completed",
+					"objectClass": "AJAX",
+					"sid": 183959036864788,
+					"parameters": {
+						"tag": "\"Player Modules\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "PlayerModules",
+					"sid": 212580645642653,
+					"parameters": {
+						"json": "AJAX.LastData"
+					}
+				},
+				{
+					"id": "request-project-file",
+					"objectClass": "AJAX",
+					"sid": 300506100393536,
+					"parameters": {
+						"tag": "\"Player Weapon List\"",
+						"file": "WeaponList.json"
+					}
+				}
+			],
+			"sid": 413543354868013
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-completed",
+					"objectClass": "AJAX",
+					"sid": 972947415754948,
+					"parameters": {
+						"tag": "\"Player Weapon List\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "PlayerWeaponList",
+					"sid": 792113360403838,
+					"parameters": {
+						"json": "AJAX.LastData"
+					}
+				},
+				{
+					"id": "request-project-file",
+					"objectClass": "AJAX",
+					"sid": 354478555648882,
+					"parameters": {
+						"tag": "\"Player Power List\"",
+						"file": "PowerList.json"
+					}
+				}
+			],
+			"sid": 654054826873299
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-completed",
+					"objectClass": "AJAX",
+					"sid": 795465727564738,
+					"parameters": {
+						"tag": "\"Player Power List\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "PlayerPowerList",
+					"sid": 358142657012746,
+					"parameters": {
+						"json": "AJAX.LastData"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 139205128154674,
+					"parameters": {
+						"layout": "A-0"
+					}
+				}
+			],
+			"sid": 100080117250346
+		}
+	],
+	"sid": 904654932740041
+}

@@ -1,0 +1,37 @@
+{
+	"name": "bg_grid",
+	"plugin-id": "TiledBg",
+	"sid": 347299534252350,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "waterbg",
+			"name": "WaterBackground"
+		}
+	],
+	"image": {
+		"width": 32,
+		"height": 32,
+		"originX": 3.90625,
+		"originY": 3.90625,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 45,
+		"collisionPoly": {
+			"points": [
+				0,
+				0,
+				0.5,
+				0,
+				0.5,
+				0.5,
+				0,
+				0.5
+			]
+		},
+		"useCollisionPoly": true
+	}
+}

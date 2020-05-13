@@ -1,0 +1,32 @@
+{
+	"name": "EDITORGRID",
+	"plugin-id": "TiledBg",
+	"sid": 445201437759153,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 16,
+		"height": 16,
+		"originX": 3.90625,
+		"originY": 3.90625,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 7601191,
+		"collisionPoly": {
+			"points": [
+				0,
+				0,
+				0.5,
+				0,
+				0.5,
+				0.5,
+				0,
+				0.5
+			]
+		},
+		"useCollisionPoly": true
+	}
+}

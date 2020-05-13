@@ -1,0 +1,20 @@
+{
+	"name": "UIBG",
+	"plugin-id": "NinePatch",
+	"sid": 479677736991701,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 24,
+		"height": 24,
+		"originX": 5.208333333333333,
+		"originY": 5.208333333333333,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 772837,
+		"useCollisionPoly": true
+	}
+}

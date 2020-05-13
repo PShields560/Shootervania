@@ -1,0 +1,36 @@
+{
+	"name": "MC_SOLID_RANDOM",
+	"plugin-id": "Tilemap",
+	"sid": 568297681074904,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 331736423521585
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	],
+	"image": {
+		"width": 128,
+		"height": 96,
+		"originX": 1.375,
+		"originY": 0.875,
+		"originalSource": "A:\\Dropbox\\Shootervania\\Tiles MC.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 8489858,
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {}
+}

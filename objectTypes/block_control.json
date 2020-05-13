@@ -1,0 +1,85 @@
+{
+	"name": "block_CONTROL",
+	"plugin-id": "Sprite",
+	"sid": 755314143948882,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "IsReady",
+			"type": "boolean",
+			"desc": "",
+			"sid": 676935105159711
+		},
+		{
+			"name": "IsMove",
+			"type": "boolean",
+			"desc": "",
+			"sid": 383658400724382
+		},
+		{
+			"name": "IsRotate",
+			"type": "boolean",
+			"desc": "",
+			"sid": 201907755513802
+		},
+		{
+			"name": "MoveSpeed",
+			"type": "number",
+			"desc": "",
+			"sid": 107106784656130
+		},
+		{
+			"name": "RotateSpeed",
+			"type": "number",
+			"desc": "",
+			"sid": 891182123015125
+		},
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"sid": 120493276818184
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Orbit",
+			"name": "Orbit",
+			"sid": 278079431885073
+		},
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 916548536727497
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 63,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 947985154787218,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

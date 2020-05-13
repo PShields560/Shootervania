@@ -1,0 +1,33 @@
+{
+	"name": "HealthBarInner",
+	"plugin-id": "NinePatch",
+	"sid": 915421302507270,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"image": {
+		"width": 61,
+		"height": 8,
+		"originX": 0.5,
+		"originY": 0.8291015625,
+		"originalSource": "A:\\Dropbox\\Shootervania\\HealthBarInner.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 148,
+		"useCollisionPoly": true
+	}
+}

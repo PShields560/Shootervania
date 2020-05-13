@@ -1,0 +1,110 @@
+{
+	"name": "WorldPortal",
+	"plugin-id": "Sprite",
+	"sid": 938890738063301,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"sid": 176150311502778
+		},
+		{
+			"name": "IsLeft",
+			"type": "boolean",
+			"desc": "",
+			"sid": 157840078888647
+		},
+		{
+			"name": "AllowBullet",
+			"type": "boolean",
+			"desc": "",
+			"sid": 366183974309578
+		},
+		{
+			"name": "AllowBall",
+			"type": "boolean",
+			"desc": "",
+			"sid": 172257966787010
+		},
+		{
+			"name": "AllowPlayer",
+			"type": "boolean",
+			"desc": "",
+			"sid": 305197114209429
+		},
+		{
+			"name": "IsTransportPortal",
+			"type": "boolean",
+			"desc": "",
+			"sid": 295133683449333
+		},
+		{
+			"name": "TransportMapName",
+			"type": "string",
+			"desc": "",
+			"sid": 111089316457879
+		},
+		{
+			"name": "CheckID",
+			"type": "number",
+			"desc": "",
+			"sid": 553738730796420
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		},
+		{
+			"effectId": "water",
+			"name": "Water"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 13,
+						"height": 35,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2103301,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.46153846153846156,
+								"y": 1.6571428571428573
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 729963847076570,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"name": "RotJs",
+	"plugin-id": "aaXe_RotJs",
+	"sid": 892039813792145,
+	"singleglobal-inst": {
+		"type": "RotJs",
+		"properties": {
+			"use-seed": false,
+			"seed": 12345
+		},
+		"uid": 1388
+	}
+}

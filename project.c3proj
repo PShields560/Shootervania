@@ -1,0 +1,855 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 19702,
+	"name": "PewPewShootervania",
+	"runtime": "c3",
+	"useWorker": true,
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "NinePatch",
+			"name": "9-patch",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Text input",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "AJAX",
+			"name": "AJAX",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Local storage",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "filechooser",
+			"name": "File chooser",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "mcAutoTiling",
+			"name": "MC Auto-Tiling",
+			"author": "Massive Cube",
+			"version": "1.0.0.3",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "aaXe_RotJs",
+			"name": "RotJs",
+			"author": "aaXe",
+			"version": "1.0.0.0",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Dictionary",
+			"name": "Dictionary",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "gamepad",
+			"name": "Gamepad",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Timer",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Rotate",
+			"name": "Rotate",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "destroy",
+			"name": "Destroy outside layout",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Orbit",
+			"name": "Orbit",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Physics",
+			"name": "Physics",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "waterbg",
+			"name": "Water background",
+			"author": "Viktor Korsun",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "hsladjust",
+			"name": "Adjust HSL",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "glowhorizontal",
+			"name": "Glow horizontal",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "glowvertical",
+			"name": "Glow vertical",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "warpobjectmask",
+			"name": "Warp object mask",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "sphere",
+			"name": "Sphere",
+			"author": "Brad Larson",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "lens2",
+			"name": "Lens2",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "swirl",
+			"name": "Swirl",
+			"author": "Brad Larson",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "water",
+			"name": "Water",
+			"author": "Viktor Korsun",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "pixellate",
+			"name": "Pixellate",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "outline",
+			"name": "Outline",
+			"author": "Richard Lems",
+			"version": "1.0.0.0",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "lighten",
+			"name": "Lighten",
+			"author": "Scirra",
+			"version": "r197.2",
+			"bundled": false
+		}
+	],
+	"uniqueId": "v80ciotw544",
+	"objectTypes": {
+		"items": [],
+		"subfolders": [
+			{
+				"items": [
+					"bg_grid",
+					"bg_space",
+					"EDITORGRID"
+				],
+				"subfolders": [],
+				"name": "backgrounds"
+			},
+			{
+				"items": [],
+				"subfolders": [
+					{
+						"items": [
+							"player_outline",
+							"player_fill",
+							"player_CONTROL",
+							"CHECKPOINT",
+							"BallIndicator"
+						],
+						"subfolders": [],
+						"name": "player"
+					},
+					{
+						"items": [
+							"projectile_player",
+							"projectile_effect_BGdistortion",
+							"explosion_effect_BGdistortion",
+							"projectile_enemy",
+							"implosion_effect_BGdistortion",
+							"projectile_explosion_player",
+							"EnergyBall",
+							"singularity_effect_BGdistortion"
+						],
+						"subfolders": [],
+						"name": "projectiles"
+					},
+					{
+						"items": [
+							"enemy_outline",
+							"enemy_fill",
+							"enemy_CONTROL",
+							"enemy_SPAWNER"
+						],
+						"subfolders": [],
+						"name": "enemy"
+					},
+					{
+						"items": [
+							"Ball",
+							"WorldPortal",
+							"Singularity",
+							"BallKey",
+							"powerup",
+							"BulletKey",
+							"Line",
+							"LineObject"
+						],
+						"subfolders": [
+							{
+								"items": [
+									"block_breakable",
+									"block_hazard",
+									"block_CONTROL",
+									"block_Paddle",
+									"block_lock",
+									"block_lock_toggle"
+								],
+								"subfolders": [],
+								"name": "blocks"
+							},
+							{
+								"items": [],
+								"subfolders": [],
+								"name": "Power Ups"
+							}
+						],
+						"name": "environment"
+					},
+					{
+						"items": [
+							"Icon_HP",
+							"Icon_Shield",
+							"Icon_Energy",
+							"EnergyBarInner",
+							"ShieldBarInner",
+							"HealthBarInner",
+							"Icon_Weapon",
+							"Icon_projectile_player",
+							"Icon_Module",
+							"Button",
+							"TextField",
+							"Checkbox",
+							"UIBG",
+							"ScreenTransition",
+							"UIText",
+							"Icon_Line",
+							"9PatchIcon",
+							"LEVELOBJECT"
+						],
+						"subfolders": [],
+						"name": "UI"
+					}
+				],
+				"name": "sprites"
+			},
+			{
+				"items": [
+					"camera",
+					"Audio",
+					"AJAX",
+					"LocalStorage",
+					"FileChooser",
+					"MCauto_Solid",
+					"MCauto_Phase",
+					"highlightBox",
+					"SoundChooser",
+					"MCauto_Solid_Random",
+					"RotJs",
+					"MCauto_Ball",
+					"MCauto_Bullet",
+					"PlayerWeaponList",
+					"PlayerPowerList",
+					"CollectedPowerUps"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"ObjectMap",
+							"PlayerModules",
+							"PlayerPowers",
+							"Tilemap_PHASE",
+							"Tilemap_SOLID",
+							"SpawnersMap",
+							"BlockControllers",
+							"Tilemap_BALL",
+							"Tilemap_BULLET"
+						],
+						"subfolders": [],
+						"name": "Arrays"
+					},
+					{
+						"items": [
+							"MC_PHASE",
+							"MC_SOLID",
+							"MC_SOLID_RANDOM",
+							"MC_BALL",
+							"MC_BULLET"
+						],
+						"subfolders": [],
+						"name": "Tilesets"
+					}
+				],
+				"name": "control objects"
+			},
+			{
+				"items": [
+					"Mouse",
+					"Keyboard",
+					"Gamepad"
+				],
+				"subfolders": [],
+				"name": "inputs"
+			},
+			{
+				"items": [
+					"particle_BG_stars_white",
+					"particle_BG_stars_color",
+					"particle_impact_enemy",
+					"particle_impact_projectile_player",
+					"particle_impact_block",
+					"particle_impact_wall",
+					"particle_impact_projectile_enemy",
+					"ExplosionParticle",
+					"DistortionParticle",
+					"particle_PlayerTrail",
+					"particle_PlayerTrail2"
+				],
+				"subfolders": [],
+				"name": "particles"
+			},
+			{
+				"items": [
+					"Text_TagVariable",
+					"Text_Static"
+				],
+				"subfolders": [],
+				"name": "text"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"Particles_OneShot",
+			"Blocks",
+			"aDestroyOutsideLayout"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"LOADING",
+			"Empty",
+			"A-0",
+			"A-1",
+			"A-2",
+			"A-3",
+			"A-4",
+			"A-5"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Main Event Sheet",
+			"loader"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "sfx_bulletbounceonwall.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 772306615465211
+				},
+				{
+					"name": "sfx_bulletdestroyblock.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 729832534727224
+				},
+				{
+					"name": "sfx_wpn_machinegun.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 145282111200767
+				},
+				{
+					"name": "sfx_wpn_shotgun.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 747311988801626
+				},
+				{
+					"name": "sfx_wpn_iondarts.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 450106469147608
+				},
+				{
+					"name": "sfx_wpn_electronball.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 940455835066154
+				},
+				{
+					"name": "sfx_wpn_antimatterbomb.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 868123654401410
+				},
+				{
+					"name": "sfx_wpn_bomb.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 430612507566751
+				},
+				{
+					"name": "sfx_wpn_bouncybullet.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 424884709627680
+				},
+				{
+					"name": "sfx_wpn_laser.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 843889374957865
+				},
+				{
+					"name": "sfx_bulletcollidewithhazardblock.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 237860676012976
+				},
+				{
+					"name": "sfx_bulletdestroyatwall.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 107741588746422
+				},
+				{
+					"name": "sfx_enemycollidewithexplosion.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 408631137420254
+				},
+				{
+					"name": "sfx_enemycollidewithplayerbullet.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 795870767225516
+				},
+				{
+					"name": "sfx_enemybulletdestroyatwall.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 883106818843458
+				},
+				{
+					"name": "sfx_enemybulletbounceonwall.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 547322510852993
+				},
+				{
+					"name": "bgm_loop_adventure.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 809946802182958
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [
+				{
+					"name": "munro-narrow.ttf",
+					"type": "application/font-sfnt",
+					"sid": 359461843421876
+				}
+			],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 611415911973151
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 287613430010793
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 721250746360252
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 506212610196450
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 500472370834180
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 102954498141949
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 332584447779766
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [
+				{
+					"name": "Player Powers.json",
+					"type": "application/json",
+					"sid": 739640594896057
+				},
+				{
+					"name": "PlayerModules.json",
+					"type": "application/json",
+					"sid": 694119002493106
+				},
+				{
+					"name": "PowerList.json",
+					"type": "application/json",
+					"sid": 969374220193596
+				},
+				{
+					"name": "WeaponList.json",
+					"type": "application/json",
+					"sid": 106176046503536
+				}
+			],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": true,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useHighDpi": true,
+		"orientations": "landscape",
+		"enableWebGL": true,
+		"gpuPreference": "high-performance",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "nearest",
+		"downscaling": "medium",
+		"maxSpriteSheetSize": 4096,
+		"loaderStyle": "progress",
+		"preloadSounds": true,
+		"clearBackground": true,
+		"enhancedAccelerationPrecision": true
+	},
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
+	"firstLayout": "LOADING"
+}

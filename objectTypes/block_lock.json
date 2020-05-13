@@ -1,0 +1,71 @@
+{
+	"name": "block_lock",
+	"plugin-id": "Sprite",
+	"sid": 252949902613717,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "KeyID",
+			"type": "number",
+			"desc": "",
+			"sid": 419959868620931
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 794617619083587
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 36,
+						"height": 36,
+						"originX": 0.05555555555555555,
+						"originY": 0.05555555555555555,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1718488,
+						"collisionPoly": {
+							"points": [
+								0.05555555555555555,
+								0.05555555555555555,
+								0.05555555555555555,
+								0.9444444444444444,
+								0.9444444444444444,
+								0.9444444444444444,
+								0.9444444444444444,
+								0.05555555555555555
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 359665737095365,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

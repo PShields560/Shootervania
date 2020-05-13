@@ -1,0 +1,74 @@
+{
+	"name": "block_Paddle",
+	"plugin-id": "Sprite",
+	"sid": 152465604604642,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 922706672214881
+		},
+		{
+			"behaviorId": "Orbit",
+			"name": "Orbit",
+			"sid": 167323303537071
+		},
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 858051037420627
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 96,
+						"height": 18,
+						"originX": 0.010416666666666666,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4754951,
+						"collisionPoly": {
+							"points": [
+								0.020833333333333332,
+								0.1111111111111111,
+								0.96875,
+								0.1111111111111111,
+								0.96875,
+								0.8333333333333334,
+								0.020833333333333332,
+								0.8333333333333334
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 544349971103667,
+				"name": "1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

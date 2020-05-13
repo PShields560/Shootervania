@@ -1,0 +1,21 @@
+{
+	"name": "Particles_OneShot",
+	"plugin-id": "Particles",
+	"sid": 281515907706806,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 197819685789347
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"particle_impact_projectile_player",
+		"particle_impact_enemy",
+		"particle_impact_wall",
+		"particle_impact_block",
+		"particle_impact_projectile_enemy"
+	]
+}

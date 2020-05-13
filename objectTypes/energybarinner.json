@@ -1,0 +1,33 @@
+{
+	"name": "EnergyBarInner",
+	"plugin-id": "NinePatch",
+	"sid": 624745729872116,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"image": {
+		"width": 61,
+		"height": 8,
+		"originX": 0.5,
+		"originY": 0.5625,
+		"originalSource": "A:\\Dropbox\\Shootervania\\EnergyBarInner.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 144,
+		"useCollisionPoly": true
+	}
+}

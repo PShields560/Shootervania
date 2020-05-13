@@ -1,0 +1,15 @@
+{
+	"name": "TextField",
+	"plugin-id": "TextBox",
+	"sid": 145941588779442,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"sid": 320206528289601
+		}
+	],
+	"behaviorTypes": []
+}

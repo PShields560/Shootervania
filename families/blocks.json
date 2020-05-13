@@ -1,0 +1,45 @@
+{
+	"name": "Blocks",
+	"plugin-id": "Sprite",
+	"sid": 247933905847890,
+	"instanceVariables": [
+		{
+			"name": "AngleOfMotion",
+			"type": "number",
+			"desc": "",
+			"sid": 301820772126378
+		},
+		{
+			"name": "LastX",
+			"type": "number",
+			"desc": "",
+			"sid": 191532007882339
+		},
+		{
+			"name": "LastY",
+			"type": "number",
+			"desc": "",
+			"sid": 316789001465280
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 701485681350159
+		},
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 503660276062321
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"block_hazard",
+		"block_breakable",
+		"block_Paddle",
+		"block_lock",
+		"block_lock_toggle"
+	]
+}

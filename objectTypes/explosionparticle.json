@@ -1,0 +1,85 @@
+{
+	"name": "ExplosionParticle",
+	"plugin-id": "Sprite",
+	"sid": 639002543245364,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "IsEnergy",
+			"type": "boolean",
+			"desc": "",
+			"sid": 177799781817971
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 130894679660156
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 404900756896175
+		},
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 994086281314408
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6879578,
+						"collisionPoly": {
+							"points": [
+								0.28125,
+								0.625,
+								0.28125,
+								0.375,
+								0.71875,
+								0.375,
+								0.71875,
+								0.625
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 980826180322654,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

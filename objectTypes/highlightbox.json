@@ -1,0 +1,37 @@
+{
+	"name": "highlightBox",
+	"plugin-id": "Sprite",
+	"sid": 275688114580009,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9708510,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 808913841750741,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "Button",
+	"plugin-id": "Button",
+	"sid": 315625066628324,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"sid": 455474816022391
+		}
+	],
+	"behaviorTypes": []
+}

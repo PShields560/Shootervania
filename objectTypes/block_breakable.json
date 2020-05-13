@@ -1,0 +1,64 @@
+{
+	"name": "block_breakable",
+	"plugin-id": "Sprite",
+	"sid": 483910730259531,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 127079803727002
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 18,
+						"height": 18,
+						"originX": 0.05555555555555555,
+						"originY": 0.05555555555555555,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 57,
+						"collisionPoly": {
+							"points": [
+								0.06906906906906905,
+								0.06906906906906904,
+								0.9339339339339338,
+								0.06756756756756756,
+								0.9354354354354353,
+								0.9369369369369368,
+								0.07057057057057055,
+								0.9339339339339338
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 624466531873857,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

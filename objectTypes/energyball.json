@@ -1,0 +1,89 @@
+{
+	"name": "EnergyBall",
+	"plugin-id": "Sprite",
+	"sid": 410944230401162,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "OwnerUID",
+			"type": "number",
+			"desc": "",
+			"sid": 469117698348561
+		},
+		{
+			"name": "IsPlayer",
+			"type": "boolean",
+			"desc": "",
+			"sid": 498973919757540
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 561447371103337
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 85,
+						"collisionPoly": {
+							"points": [
+								0.4184027777777774,
+								0.4427083333333329,
+								0.49999999999999994,
+								0.39236111111111094,
+								0.5729166666666655,
+								0.42534722222222193,
+								0.6163194444444438,
+								0.5017361111111112,
+								0.5833333333333326,
+								0.6006944444444438,
+								0.4999999999999997,
+								0.649305555555555,
+								0.42881944444444403,
+								0.6093749999999998,
+								0.3906249999999997,
+								0.5156250000000004
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 442668777134423,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

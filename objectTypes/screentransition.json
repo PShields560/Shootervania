@@ -1,0 +1,62 @@
+{
+	"name": "ScreenTransition",
+	"plugin-id": "TiledBg",
+	"sid": 107751145508068,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "MapName",
+			"type": "string",
+			"desc": "",
+			"sid": 468625926581995
+		},
+		{
+			"name": "FadingIn",
+			"type": "boolean",
+			"desc": "",
+			"sid": 838910029368663
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 248517785556631
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 591367618929578
+		},
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 626921009173542
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "lens2",
+			"name": "Lens2"
+		},
+		{
+			"effectId": "swirl",
+			"name": "Swirl"
+		},
+		{
+			"effectId": "pixellate",
+			"name": "Pixellate"
+		}
+	],
+	"image": {
+		"width": 32,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 1950754,
+		"useCollisionPoly": true
+	}
+}

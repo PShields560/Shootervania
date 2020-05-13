@@ -1,0 +1,45 @@
+{
+	"name": "MC_PHASE",
+	"plugin-id": "Tilemap",
+	"sid": 982898779836580,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 255680926117707
+		},
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 888976318142450
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"image": {
+		"width": 128,
+		"height": 96,
+		"originX": 1.375,
+		"originY": 0.875,
+		"originalSource": "A:\\Dropbox\\Shootervania\\Tiles Phase MC.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2647434,
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {}
+}

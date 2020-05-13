@@ -1,0 +1,50 @@
+{
+	"name": "CHECKPOINT",
+	"plugin-id": "Sprite",
+	"sid": 115712419549830,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "CheckID",
+			"type": "number",
+			"desc": "",
+			"sid": 233585288837198
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 775318602311661
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 600107772930705,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

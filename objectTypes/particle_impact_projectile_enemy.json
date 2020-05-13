@@ -1,0 +1,39 @@
+{
+	"name": "particle_impact_projectile_enemy",
+	"plugin-id": "Particles",
+	"sid": 940205127142768,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 655558132975402
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"image": {
+		"width": 5,
+		"height": 5,
+		"originX": 1.4,
+		"originY": 4.2,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 43,
+		"useCollisionPoly": true
+	}
+}

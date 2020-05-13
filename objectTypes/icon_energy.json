@@ -1,0 +1,70 @@
+{
+	"name": "Icon_Energy",
+	"plugin-id": "Sprite",
+	"sid": 316833010986877,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 24,
+						"height": 24,
+						"originX": 0.9375,
+						"originY": 0.9375,
+						"originalSource": "A:\\Dropbox\\Shootervania\\EnergyIcon.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 81,
+						"collisionPoly": {
+							"points": [
+								0.14583333333333334,
+								0.14583333333333334,
+								0.5,
+								0.0625,
+								0.8125,
+								0.14583333333333334,
+								0.8958333333333334,
+								0.5,
+								0.8125,
+								0.8125,
+								0.5,
+								0.8958333333333334,
+								0.14583333333333334,
+								0.8125,
+								0.0625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 879601430421485,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

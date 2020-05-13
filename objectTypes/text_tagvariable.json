@@ -1,0 +1,25 @@
+{
+	"name": "Text_TagVariable",
+	"plugin-id": "Text",
+	"sid": 389216912347282,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "tag",
+			"type": "number",
+			"desc": "",
+			"sid": 367288907317821
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"name": "implosion_effect_BGdistortion",
+	"plugin-id": "Sprite",
+	"sid": 148826316596076,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "OwnerUID",
+			"type": "number",
+			"desc": "",
+			"sid": 972869391742276
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 395900514976716
+		},
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 311733584180852
+		},
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 125912636810616
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "warpobjectmask",
+			"name": "WarpObjectMask"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "A:\\Dropbox\\Shootervania\\explosion.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 69,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.8888888888888888,
+								0,
+								0.8888888888888888,
+								0.8888888888888888,
+								0,
+								0.8888888888888888
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 221633741456156,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

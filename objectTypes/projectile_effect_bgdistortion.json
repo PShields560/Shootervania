@@ -1,0 +1,67 @@
+{
+	"name": "projectile_effect_BGdistortion",
+	"plugin-id": "Sprite",
+	"sid": 836465168494180,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "OwnerUID",
+			"type": "number",
+			"desc": "",
+			"sid": 962505281333504
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 196685483527653
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "warpobjectmask",
+			"name": "WarpObjectMask"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.75,
+						"originY": 0.5,
+						"originalSource": "A:\\Dropbox\\Shootervania\\explosion.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 70,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.8888888888888888,
+								0,
+								0.8888888888888888,
+								0.8888888888888888,
+								0,
+								0.8888888888888888
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 844358518026428,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

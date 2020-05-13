@@ -1,0 +1,98 @@
+{
+	"name": "powerup",
+	"plugin-id": "Sprite",
+	"sid": 524063896592483,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Name",
+			"type": "string",
+			"desc": "",
+			"sid": 848150866144782
+		},
+		{
+			"name": "PowerNum",
+			"type": "number",
+			"desc": "",
+			"sid": 589160529265952
+		},
+		{
+			"name": "FlavorText",
+			"type": "string",
+			"desc": "",
+			"sid": 446175517843113
+		},
+		{
+			"name": "IsWeapon",
+			"type": "boolean",
+			"desc": "",
+			"sid": 176510184645088
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 255128944595245
+		},
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 456101654795785
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 24,
+						"height": 24,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4768492,
+						"collisionPoly": {
+							"points": [
+								0.16666666666666666,
+								0.16666666666666666,
+								0.8809523809523809,
+								0.16666666666666666,
+								0.8809523809523809,
+								0.8809523809523809,
+								0.16666666666666666,
+								0.8809523809523809
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 355422361685762,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

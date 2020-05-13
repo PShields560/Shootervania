@@ -1,0 +1,68 @@
+{
+	"name": "player_fill",
+	"plugin-id": "Sprite",
+	"sid": 715195699252705,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 360347968187900
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 15,
+						"collisionPoly": {
+							"points": [
+								0.0625,
+								0.0625,
+								0.5,
+								0.28125,
+								0.625,
+								0.34375,
+								0.875,
+								0.5,
+								0.625,
+								0.625,
+								0.5,
+								0.6875,
+								0.0625,
+								0.90625,
+								0.25,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 416282383611112,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

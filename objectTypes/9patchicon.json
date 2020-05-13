@@ -1,0 +1,33 @@
+{
+	"name": "9PatchIcon",
+	"plugin-id": "NinePatch",
+	"sid": 323453271714865,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"image": {
+		"width": 24,
+		"height": 24,
+		"originX": 0.5833333333333334,
+		"originY": 0.5833333333333334,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2809875,
+		"useCollisionPoly": true
+	}
+}

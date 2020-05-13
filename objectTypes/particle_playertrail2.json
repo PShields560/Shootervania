@@ -1,0 +1,43 @@
+{
+	"name": "particle_PlayerTrail2",
+	"plugin-id": "Particles",
+	"sid": 244642994135669,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 391426214375827
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "warpobjectmask",
+			"name": "WarpObjectMask"
+		}
+	],
+	"image": {
+		"width": 15,
+		"height": 10,
+		"originX": 0.8666666666666667,
+		"originY": 1.4,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 7060372,
+		"collisionPoly": {
+			"points": [
+				0.2,
+				0.3,
+				0.8,
+				0.3,
+				0.8,
+				0.7,
+				0.2,
+				0.7
+			]
+		},
+		"useCollisionPoly": true
+	}
+}

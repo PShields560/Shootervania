@@ -1,0 +1,93 @@
+{
+	"name": "BallKey",
+	"plugin-id": "Sprite",
+	"sid": 294629420597206,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "KeyID",
+			"type": "number",
+			"desc": "",
+			"sid": 562603611214650
+		},
+		{
+			"name": "IsToggle",
+			"type": "boolean",
+			"desc": "",
+			"sid": 722630914848055
+		},
+		{
+			"name": "ReleaseKey",
+			"type": "number",
+			"desc": "",
+			"sid": 526854812648592
+		},
+		{
+			"name": "HasBall",
+			"type": "boolean",
+			"desc": "",
+			"sid": 718141371702010
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 502046588827880
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "A:\\Dropbox\\Shootervania\\b.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1519941,
+						"collisionPoly": {
+							"points": [
+								0.078125,
+								0.078125,
+								0.921875,
+								0.078125,
+								0.921875,
+								0.921875,
+								0.078125,
+								0.921875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 754283270273132,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

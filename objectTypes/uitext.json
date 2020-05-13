@@ -1,0 +1,47 @@
+{
+	"name": "UIText",
+	"plugin-id": "Text",
+	"sid": 861485299693838,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Tag",
+			"type": "number",
+			"desc": "",
+			"sid": 213678596860902
+		},
+		{
+			"name": "IsTemp",
+			"type": "boolean",
+			"desc": "",
+			"sid": 414196759639696
+		},
+		{
+			"name": "Time",
+			"type": "number",
+			"desc": "",
+			"sid": 455816958024040
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 782346639979766
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "outline",
+			"name": "Outline"
+		}
+	]
+}

@@ -1,0 +1,93 @@
+{
+	"name": "BulletKey",
+	"plugin-id": "Sprite",
+	"sid": 788796041187579,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "KeyID",
+			"type": "number",
+			"desc": "",
+			"sid": 533288366086385
+		},
+		{
+			"name": "IsToggle",
+			"type": "boolean",
+			"desc": "",
+			"sid": 396225109175294
+		},
+		{
+			"name": "ReleaseKey",
+			"type": "number",
+			"desc": "",
+			"sid": 826693120577549
+		},
+		{
+			"name": "HasBall",
+			"type": "boolean",
+			"desc": "",
+			"sid": 772167564518159
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 611085583708398
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "A:\\Dropbox\\Shootervania\\Sprites\\bullet net.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3097740,
+						"collisionPoly": {
+							"points": [
+								0.078125,
+								0.078125,
+								0.921875,
+								0.078125,
+								0.921875,
+								0.921875,
+								0.078125,
+								0.921875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 643441734752123,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

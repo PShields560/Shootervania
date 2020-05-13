@@ -1,0 +1,51 @@
+{
+	"name": "particle_PlayerTrail",
+	"plugin-id": "Particles",
+	"sid": 116918544696383,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 586333317219200
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"image": {
+		"width": 9,
+		"height": 9,
+		"originX": 1.1111111111111112,
+		"originY": 1.4444444444444444,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 8289742,
+		"collisionPoly": {
+			"points": [
+				0.2222222222222222,
+				0.2222222222222222,
+				0.7777777777777778,
+				0.2222222222222222,
+				0.7777777777777778,
+				0.6666666666666666,
+				0.2222222222222222,
+				0.6666666666666666
+			]
+		},
+		"useCollisionPoly": true
+	}
+}

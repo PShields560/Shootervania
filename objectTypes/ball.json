@@ -1,0 +1,111 @@
+{
+	"name": "Ball",
+	"plugin-id": "Sprite",
+	"sid": 555907019109449,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "LastX",
+			"type": "number",
+			"desc": "",
+			"sid": 523425601086032
+		},
+		{
+			"name": "LastY",
+			"type": "number",
+			"desc": "",
+			"sid": 507310889892030
+		},
+		{
+			"name": "AngleOfMotion",
+			"type": "number",
+			"desc": "",
+			"sid": 238138895382358
+		},
+		{
+			"name": "BounceOnPhaseWall",
+			"type": "boolean",
+			"desc": "",
+			"sid": 632080026394576
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 772897509446069
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 840804633348338
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 897462308297808
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		},
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 33,
+						"height": 33,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4179525,
+						"collisionPoly": {
+							"points": [
+								0.17234848484848486,
+								0.15719696969696972,
+								0.5037878787878789,
+								0.01893939393939395,
+								0.8465909090909095,
+								0.18181818181818182,
+								0.979166666666667,
+								0.5094696969696971,
+								0.839015151515152,
+								0.8238636363636367,
+								0.5170454545454546,
+								0.9810606060606063,
+								0.17424242424242425,
+								0.8314393939393943,
+								0.022727272727272728,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 389501040307101,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

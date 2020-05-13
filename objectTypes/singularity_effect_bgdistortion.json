@@ -1,0 +1,115 @@
+{
+	"name": "singularity_effect_BGdistortion",
+	"plugin-id": "Sprite",
+	"sid": 373819458293718,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "OwnerUID",
+			"type": "number",
+			"desc": "",
+			"sid": 555775414256032
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 517034097294883
+		},
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 996820816351868
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "sphere",
+			"name": "Sphere"
+		},
+		{
+			"effectId": "lens2",
+			"name": "Lens2"
+		},
+		{
+			"effectId": "swirl",
+			"name": "Swirl"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 400,
+						"height": 400,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "A:\\Dropbox\\Shootervania\\explosion.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2089169,
+						"collisionPoly": {
+							"points": [
+								0.23,
+								0.23,
+								0.71,
+								0.23,
+								0.71,
+								0.71,
+								0.23,
+								0.71
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 867656434662531,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 216,
+						"height": 216,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "A:\\Dropbox\\Shootervania\\df.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8492534,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.8888888888888888,
+								0,
+								0.8888888888888888,
+								0.8888888888888888,
+								0,
+								0.8888888888888888
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 117596872216847,
+				"name": "Animation 2",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
